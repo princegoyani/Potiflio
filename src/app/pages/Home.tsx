@@ -132,8 +132,9 @@ export function Home() {
             className="relative flex justify-center lg:justify-end"
           >
             <div className="relative w-full max-w-md aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white">
+              {/* TODO: Replace src with your public photo URL (Google Drive links may require 'Anyone with link' access) */}
               <img
-                src="../photos/profilephoto.png"
+                src="https://media.licdn.com/dms/image/v2/D5603AQGisHRjsZm9kQ/profile-displayphoto-shrink_800_800/B56Zci76FYGQAg-/0/1748637819515?e=1772668800&v=beta&t=5m7E07N9uOgUBoMsw1ut8Evjfa4hSMAhdpWwESaXiw4"
                 alt="Prince Goyani"
                 className="w-full h-full object-cover"
               />
